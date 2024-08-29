@@ -1,0 +1,158 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding: 0px 40px 0px 40px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+}
+.navbar h2 {
+    padding: 20x;
+    font-family: "Lobster", sans-serif;
+    color: #ffffff;
+    align-items: start;
+}
+
+.navbar {
+    background-color: #373a3c;
+    display: flex;
+}
+
+.navbar .navbar-nav{
+display: flex;
+justify-content: space-around;
+align-items: end;
+text-decoration: none;
+}
+
+/*Seccion Principal*/
+#section1 {
+    margin-top: 20px;
+    color: #373A3C;
+
+}
+
+.section1 h1 {
+    color: #373A3C;
+}
+
+#section1 #div-section1 #primeracard #primeracardbody p{
+font-size: 20px;
+
+}
+
+#section1 #div-section1 #primeracard #primeracardbody button{
+    margin: 20px;    
+    height: 40px;
+    width: 142px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #373a3c;
+    border: 2px solid #373a3c;
+
+}
+
+
+/*Carrusel*/
+#carousel {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.carousel-indicators #slidebtn{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color:grey;
+}
+
+
+
+/*Seccion 2 Recetas*/
+
+.receta, .preparacion{
+    margin-top: 60px;
+}
+
+.receta, .preparacion p {
+    font-size: 20px;
+}
+
+/* Seccion Suscribete*/
+#suscribete {
+    margin-right: 20px;
+    height: 434px;
+    background-color:#DC3545;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.btn3 {
+    margin-top: 20px;
+    width: 233px;
+    height: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+
+
+
+/* Footer*/
+#footer{
+    
+    background-color: #373A3C;
+    font-family: "Lobster", sans-serif;
+    color: #ffffff;
+    height: 125px; 
+    padding: 10px;
+
+
+}
+
+#footer h2{
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+
+
+/*.cabin-<uniquifier> {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+      */
+  
+/*
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+    #section1 {
+        
+    }
+}
+
+
+  */
